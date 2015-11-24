@@ -1,7 +1,7 @@
-# Installation
+# Setup
 
-Configure your `deployment.yml` file by copying deployment-template.yml
-then filling in the fields.
+Configure your `deployment.yml` file by copying
+`deployment-template.yml` then filling in the fields.
 
 ```
 ./setup.sh
