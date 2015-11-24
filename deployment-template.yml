@@ -1,0 +1,26 @@
+---
+host: '192.168.xxx.xxx'
+compute_resource_name: 'Cluster1'
+vsphere_user: ''
+vsphere_password: ''
+vm_base_path: ''
+insecure: true
+nodes: 3
+
+deployer:
+  username: ''
+  password: ''
+  name: 'vSphere Deployer'
+  template_name: 'Templates/vSphere Deployer'
+
+server:
+  username: ''
+  password: ''
+  name: 'vSphere Server'
+  template_name: 'Templates/vSphere Server'
+
+node:
+  username: ''
+  password: ''
+  name: 'vSphere Node'
+  template_name: 'Templates/vSphere Node'
